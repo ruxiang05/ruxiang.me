@@ -34,20 +34,20 @@ disqus:
   categories: [blog, project] # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
-facebook: https://www.facebook.com/ruxi.ang05
-twitter: https://twitter.com/ruxi_ang
+facebook: ruxi.ang05
+twitter: ruxi_ang
 # google: mygoogle
 # instagram: myinstagram
 # pinterest: mypinterest
-linkedin: https://www.linkedin.com/in/ruxandra-anghel-35891b103
+linkedin: ruxandra-anghel-35891b103
 # youtube: myyoutube
-spotify: https://open.spotify.com/user/11148720462
-github: https://github.com/ruxiang05
+spotify: 11148720462
+github: ruxiang05
 # lastfm: mylastfm
 # stackoverflow: 7044681/mystackoverflow
 # quora: userquora
 # reddit: username
-medium: https://medium.com/@ruxiang
+medium: ruxiang
 # vimeo: myvimeo
 # lanyrd: mylanyrd
 email: ruxandra.a.anghel@gmail.com
