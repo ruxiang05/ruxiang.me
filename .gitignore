@@ -1,2 +1,11 @@
-_site/
-.sass-cache/
+# Project dependencies
+.cache
+node_modules/
+yarn-error.log
+
+# Build directory
+/public
+.DS_Store
+
+# VSCode
+.vscode/
