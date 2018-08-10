@@ -1,0 +1,49 @@
+header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem 0;
+  border-bottom: 1px rgba($tertiary, 0.2) solid;
+  z-index: 1;
+  background-color: $secondary;
+
+  & > div {
+    font-family: $accent-font;
+    font-size: 1.5rem;
+  }
+
+  & + div {
+    margin-top: 100px;
+  } 
+}
+
+nav {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-column-gap: 10px;
+  padding-top: 1em;
+}
+
+.nav-item {
+  text-decoration: none;
+  color: $primary;
+  padding: 0.5em;
+  &-active {
+    border-bottom: 1px solid $primary;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  header {
+    flex-flow: row;
+    justify-content: space-between;
+    padding: 1.5rem 3rem;
+  }
+
+  nav {
+    padding-top: 0;
+  }
+}

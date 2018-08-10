@@ -1,0 +1,29 @@
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: $main-font;
+  background-color: $secondary;
+}
+
+main {
+  padding: 1rem 2rem;
+  margin-top: 130px;
+}
+
+html,
+#___gatsby,
+body,
+div[data-reactroot],
+main {
+  height: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  main {
+    margin-top: 90px;
+    padding: 1.5rem 3rem;
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "ruxiang05.github.io",
+  "description": "Personal quarters of Ruxandra Anghel.",
+  "version": "0.0.0",
+  "author": "Ruxandra Anghel <ruxiang05@gmail.com>",
+  "dependencies": {
+    "gatsby": "^1.9.247",
+    "gatsby-link": "^1.6.40",
+    "gatsby-source-filesystem": "^1.5.38",
+    "gatsby-transformer-remark": "^1.7.42"
+  },
+  "keywords": [
+    "personal website"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write 'src/**/*.js'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "gatsby-plugin-sass": "^1.0.26",
+    "prettier": "^1.12.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ruxiang05/ruxiang05.github.io"
+  }
+}
