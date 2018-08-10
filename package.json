@@ -1,5 +1,5 @@
 {
-  "name": "ruxiang05.github.io",
+  "name": "ruxiang.me",
   "description": "Personal quarters of Ruxandra Anghel.",
   "version": "0.0.0",
   "author": "Ruxandra Anghel <ruxiang05@gmail.com>",
@@ -25,6 +25,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ruxiang05/ruxiang05.github.io"
+    "url": "https://github.com/ruxiang05/ruxiang.me"
   }
 }
