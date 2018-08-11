@@ -1,8 +1,7 @@
 ---
-path: '/posts/first-post'
+path: '/blog/first-post'
 title: 'First Blog Post'
-published: true
-date: '2018-07-01'
+date: '01 August 2018'
 ---
 
 Hello

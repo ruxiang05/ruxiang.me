@@ -1,8 +1,14 @@
 ---
-path: '/posts/second-post'
+path: '/blog/second-post'
 title: 'Second Blog Post'
-published: true
-date: '2018-07-02'
+date: '02 August 2018'
 ---
 
-Hello from second post
+Hello from second post tht is most definetly longer than the first one.
+Hello from second post tht is most definetly longer than the first one.
+Hello from second post tht is most definetly longer than the first one.
+Hello from second post tht is most definetly longer than the first one.
+Hello from second post tht is most definetly longer than the first one.
+Hello from second post tht is most definetly longer than the first one.
+Hello from second post tht is most definetly longer than the first one.
+Hello from second post tht is most definetly longer than the first one.
