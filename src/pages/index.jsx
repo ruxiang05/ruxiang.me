@@ -1,7 +1,6 @@
 import React from 'react';
 import Title from '../components/title';
 import me from '../../assets/me.png'
-import placeholder from '../../assets/placeholder.jpg';
 
 const IndexPage = () => (
   <main>

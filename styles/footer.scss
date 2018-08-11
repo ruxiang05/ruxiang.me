@@ -13,7 +13,6 @@ footer {
 }
 
 .contact {
-  color: $tertiary;
   grid-column: span 1;
 }
 
@@ -38,7 +37,6 @@ footer {
   font-size: 0.75em;
   grid-column: span 2;
   grid-row: 4/5;
-  color: $tertiary;
 
   &:before {
     content:"\00a9";
