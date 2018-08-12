@@ -2,14 +2,9 @@
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-
+  
   & h2 {
     font-size: 1.5rem;
     margin-bottom: 1rem;
-  }
-
-  & small,
-  & div {
-    color: $tertiary;
   }
 }

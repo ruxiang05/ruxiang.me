@@ -12,7 +12,7 @@ const Header = ({ location }) => {
       <div>Ruxandra Anghel</div>
       <nav>
         <NavItem page="home" />
-        <NavItem page="portfolio" />
+        {/*<NavItem page="portfolio" />*/}
         <NavItem page="hobbies" />
         <NavItem page="blog" />
       </nav>
