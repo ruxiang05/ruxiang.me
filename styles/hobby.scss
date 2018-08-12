@@ -1,0 +1,24 @@
+.hobby {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+
+  & img {
+    width: 15rem;
+    height: 15rem;
+  }
+
+  & h2 {
+    font-family: $main-font;
+    margin-bottom: 3rem;
+  }
+  & p {
+    margin: 0;
+  }
+
+  & a {
+    color: $primary;
+    font-weight: 900;
+  }
+}
