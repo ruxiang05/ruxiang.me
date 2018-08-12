@@ -8,10 +8,9 @@ const Template = ({data, pathContext}) => {
   const {markdownRemark: post} = data;
   const {title, date} = post.frontmatter;
   const { next, prev } = pathContext;
-  // TODO: replace div with React.Fragment
   return <main className="post">
       <Title title={title} />
-      <small>{date}</small>
+      <p>{date}</p>
       <div className="content" dangerouslySetInnerHTML={{ __html: post.html }} />
       {(next || prev) && <div className='routing'>
         {next && <Link className="prev" to={next.frontmatter.path}>

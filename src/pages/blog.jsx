@@ -26,7 +26,7 @@ const Blog = ({ data }) => (
 
 export const pageQuery = graphql`
          query IndexQuery {
-           allMarkdownRemark(limit: 10, sort: { fields: [frontmatter___date], order: DESC }) {
+           allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }, limit: 10) {
              edges {
                node {
                  html
@@ -35,6 +35,7 @@ export const pageQuery = graphql`
                  frontmatter {
                    title
                    path
+                   date
                  }
                }
              }
