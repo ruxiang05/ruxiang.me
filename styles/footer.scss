@@ -8,28 +8,26 @@ footer {
   font-size: 1rem;
 }
 
-.footer-name {
-  grid-column: span 2;
-  font-weight: bold;
-}
-
 .contact {
   grid-column: span 1;
+  font-size: 1.25rem;
 }
 
 .social-media {
   display: flex;
   padding: 10px 0;
   & a {
-    margin-right: 10px;
     display: block;
-    width: 1.5rem;
-    height: 1.5rem;
+    width: 1.75rem;
+    height: 1.75rem;
+    & + a {
+       margin-left: 10px;
+    }
   }
 
   & img {
-    width: 1.5rem;
-    height: 1.5rem;
+    width: 100%;
+    height: 100%;
     margin: 0;
   }
 }
@@ -37,7 +35,6 @@ footer {
 .copyright {
   font-size: 0.75em;
   grid-column: span 2;
-  grid-row: 4/5;
 
   &:before {
     content:"\00a9";
@@ -48,7 +45,6 @@ footer {
 @media screen and (min-width: 600px) {
   footer {
     display: grid;
-    grid-row-gap: 10px;
     grid-template-columns: 1fr 200px;
     padding: 1.5rem 3rem;
   }

@@ -5,20 +5,19 @@ import twitter from '../../assets/twitter-brands.svg'
 import instagram from '../../assets/instagram-brands.svg'
 const Footer = () => {
   return <footer>
-      <div className='footer-name'>Ruxandra Anghel</div>
       <div className='contact'>hello@ruxiang.me</div>
       <div className='social-media'>
         <a href='https://github.com/ruxiang05'>
-          <img src={github} />
+          <img src={github} alt='GitHub logo'/>
         </a>
         <a href='https://www.linkedin.com/in/ruxiang/'>
-          <img src={linkedin} />
+        <img src={linkedin} alt='LinkedIn logo'/>
         </a>
         <a href='https://twitter.com/ruxi_ang'>
-          <img src={twitter} />
+        <img src={twitter} alt='Twitter logo'/>
         </a>
         <a href='https://www.instagram.com/ruxi.ang/'>
-          <img src={instagram} />
+        <img src={instagram} alt='Instagram logo'/>
         </a>
       </div>
       <div className="copyright">Ruxandra Anghel 2018</div>
