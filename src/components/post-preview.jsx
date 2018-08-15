@@ -5,7 +5,7 @@ const PostPreview = ({header, date, content}) => {
   return (
     <div className='post-preview'>
       <h2>{header}</h2>
-      <p>{date}</p>
+      <p className='date'>{date}</p>
       <p dangerouslySetInnerHTML={{ __html: content }} />
     </div>
   )

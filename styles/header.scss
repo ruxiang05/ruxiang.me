@@ -30,9 +30,25 @@ nav {
 .nav-item {
   text-decoration: none;
   color: $primary;
-  padding: 0.5em;
-  &-active {
-    border-bottom: 1px solid $primary;
+  padding: 0.4em 0.5em;
+  position: relative;
+
+  &:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    right: 100%;
+    bottom: 0;
+    background: $primary;
+    height: 2px;
+    transition-property: right;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+  }
+
+  &:hover:before, &:focus:before, &:active:before, &-active:before {
+    right: 0;
   }
 }
 

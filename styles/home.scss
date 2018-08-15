@@ -20,12 +20,20 @@
 .preview {
   display: flex;
   flex-direction: column;
-  margin: 2rem 0;
 
   & h1 {
     font-size: 2rem;
   }
+
+  & a {
+    text-decoration: none;
+  }
 }
+
+section + section {
+  margin-top: 2rem;
+}
+
 
 @media screen and (min-width: 768px) {
   .intro {
@@ -38,12 +46,22 @@
       height: 20rem;
     }
 
-    & p {
-      padding-left: 2rem;
+    & .description{
+      padding-left: 4rem;
     }
   }
 
   .preview {
     justify-content: space-evenly;
+  }
+
+  section + section {
+  margin-top: 5rem;
+  }
+}
+
+@media screen and (min-width: 1366px) {
+  .intro {
+    justify-content: center;
   }
 }
