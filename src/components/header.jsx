@@ -9,7 +9,7 @@ const NavItem = ({page}) => (
 
 const Header = ({ location }) => {
   return <header>
-      <div>Ruxandra Anghel</div>
+      <Link className='logo' exact to='/'>Ruxandra Anghel</Link>
       <nav>
         <NavItem page="home" />
         {/*<NavItem page="portfolio" />*/}

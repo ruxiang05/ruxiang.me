@@ -10,14 +10,11 @@ header {
   z-index: 1;
   background-color: $secondary;
 
-  & > div {
+  .logo {
     font-family: $accent-font;
     font-size: 1.5rem;
+    text-decoration: none;
   }
-
-  & + div {
-    margin-top: 100px;
-  } 
 }
 
 nav {
