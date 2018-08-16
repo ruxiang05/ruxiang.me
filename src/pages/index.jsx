@@ -7,7 +7,7 @@ const IndexPage = ({ data }) => (
   <main>
     <section className="intro">
       <img src={me} />
-      <div className='description'>
+      <div className="description">
         <p>
           Hi, I'm Ruxandra (Ruxi). I'm a developer based in London, United
           Kingdom.
@@ -20,12 +20,13 @@ const IndexPage = ({ data }) => (
     <section className="preview">
       <h1 className="preview-title">Blog</h1>
       <div className="posts">
-        {data.allMarkdownRemark.edges.map(post => (
+        {data.allMarkdownRemark.edges.map((post, index, posts) => (
           <Link to={post.node.frontmatter.path} key={post.node.id}>
             <PostPreview
               header={post.node.frontmatter.title}
               date={post.node.frontmatter.date}
               content={post.node.excerpt}
+              index={posts.length - index}
             />
           </Link>
         ))}

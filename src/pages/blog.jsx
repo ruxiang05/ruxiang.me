@@ -5,16 +5,18 @@ import Title from '../components/title';
 // TODO: replace div with React.Fragment
 const Blog = ({ data }) => (
   <main>
-    <section className='blog'>
-      <Title title='Blog' />
-      <ul className='posts'>
-        {data.allMarkdownRemark.edges.map(post => (
-          <li className='post-item' key={post.node.id}>
+    <section className="blog">
+      <Title title="Blog" />
+      <ul className="posts">
+        {data.allMarkdownRemark.edges.map((post, index, posts) => (
+          <li className="post-item" key={post.node.id}>
             <Link to={post.node.frontmatter.path}>
               <PostPreview
                 header={post.node.frontmatter.title}
                 date={post.node.frontmatter.date}
-                content={post.node.excerpt} />
+                content={post.node.excerpt}
+                index={posts.length - index}
+              />
             </Link>
           </li>
         ))}
