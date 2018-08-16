@@ -1,8 +1,9 @@
 import React from 'react';
-import github from '../../assets/github-brands.svg'
-import linkedin from '../../assets/linkedin-in-brands.svg'
-import twitter from '../../assets/twitter-brands.svg'
-import instagram from '../../assets/instagram-brands.svg'
+// * icons are from "feather" set
+import github from '../../assets/github.svg'
+import linkedin from '../../assets/linkedin.svg'
+import twitter from '../../assets/twitter.svg'
+import instagram from '../../assets/instagram.svg'
 const Footer = () => {
   return <footer>
       <div className='contact'>hello@ruxiang.me</div>

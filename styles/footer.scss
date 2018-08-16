@@ -15,13 +15,15 @@ footer {
 
 .social-media {
   display: flex;
-  padding: 10px 0;
+  padding: 0.75rem 0;
+  justify-items: center;
   & a {
     display: block;
-    width: 1.75rem;
-    height: 1.75rem;
+    width: 2rem;
+    height: 2rem;
+
     & + a {
-       margin-left: 10px;
+      margin-left: 0.5rem;
     }
   }
 
@@ -52,5 +54,6 @@ footer {
   .social-media {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    padding: 0;
   }
 }
