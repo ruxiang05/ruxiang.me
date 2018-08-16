@@ -1,11 +1,10 @@
 import React from 'react';
 
-const PostPreview = ({header, date, content}) => {
-// TODO: replace div with React.Fragment
+const PostPreview = ({header, date, content, index}) => {
   return (
     <div className='post-preview'>
       <h2>{header}</h2>
-      <p className='date'>{date}</p>
+      <p className='meta'>#{index}: {date}</p>
       <p dangerouslySetInnerHTML={{ __html: content }} />
     </div>
   )
