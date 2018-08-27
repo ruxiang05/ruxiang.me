@@ -65,6 +65,13 @@
   }
 }
 
+@media screen and (min-width: 1080px) {
+  .post {
+    padding-left: 15rem;
+    padding-right: 15rem;
+  }
+}
+
 @media screen and (max-width: 480px) {
   .routing-title {
     display: none;
