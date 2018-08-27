@@ -38,6 +38,14 @@ export const pageQuery = graphql`
                    title
                    path
                    date
+                   cover_image {
+                     publicURL
+                     childImageSharp {
+                       sizes(maxWidth: 1240) {
+                         srcSet
+                       }
+                     }
+                   }
                  }
                }
              }
