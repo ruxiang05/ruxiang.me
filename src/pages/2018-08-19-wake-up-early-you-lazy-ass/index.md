@@ -2,6 +2,7 @@
 path: '/blog/wake-up-early-you-lazy-ass'
 title: 'Wake up early you lazy ass'
 date: '19 August 2018'
+cover_image: "./cover_image.jpg"
 ---
 I used to be a person that hated getting up in the morning. And by in the morning, I mean anywhere earlier than 10 AM. Just the thought of having to see the sunrise or people going to work made me uneasy. I instead chose to wrap my head in my pillow to avoid the morning sunlight hitting my face and snoozed my day away. No more! Now, I wake up religiously every morning at 6, with the exception of weekends when I don't have a specific hour, but I aim to be up before 10. I believe that if a person like me can go from sleeping as a hobby to getting excited to get out of bed and begin the day, I believe everyone can.
 
