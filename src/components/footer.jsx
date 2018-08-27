@@ -6,7 +6,7 @@ import twitter from '../../assets/twitter.svg'
 import instagram from '../../assets/instagram.svg'
 const Footer = () => {
   return <footer>
-      <div className='contact'>hello@ruxiang.me</div>
+      <a className='contact' href='mailto:hello@ruxiang.me'>hello@ruxiang.me</a>
       <div className='social-media'>
         <a href='https://github.com/ruxiang05'>
           <img src={github} alt='GitHub logo'/>
