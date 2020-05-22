@@ -1,0 +1,47 @@
+html,
+body,
+#___gatsby,
+#gatsby-focus-wrapper,
+.wrapper {
+  height: 100%;
+}
+
+body {
+  font-family: "Fira Sans";
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+.content {
+  padding: 1rem 1rem 3rem;
+}
+
+.intro {
+  margin: 4rem 0;
+}
+.profile {
+  width: 100%;
+}
+
+.social-media {
+  height: 1.5rem;
+  margin: 0 0.5rem;
+}
+
+@media only screen and (min-width: 768px) {
+  .wrapper {
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    display: grid;
+  }
+
+  .profile {
+    object-fit: cover;
+    order: 1;
+    height: 100%;
+  }
+}
