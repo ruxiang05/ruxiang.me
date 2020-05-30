@@ -2,6 +2,7 @@ import React from "react"
 import Insta from "../images/instagram-brands.svg"
 import LinkedIn from "../images/linkedin-in-brands.svg"
 import Twitter from "../images/twitter-brands.svg"
+import TikTok from "../images/tik-tok.svg"
 
 const Social = () => (
   <div>
@@ -14,6 +15,9 @@ const Social = () => (
     </a>
     <a href="https://twitter.com/ruxi_ang">
       <img className="social-media" src={Twitter} alt="Twitter logo" />
+    </a>
+    <a href="https://www.tiktok.com/@ruxi.ang">
+      <img className="social-media" src={TikTok} alt="TikTok logo" />
     </a>
   </div>
 )
